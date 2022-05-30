@@ -4,21 +4,21 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.header__img {
   width: 100%;
 }
-.aaa .more_inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .header {
     text-align: center;
   }
 }
@@ -35,8 +35,10 @@
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.new-task {
   display: flex;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 .task-list {
   margin:0;
@@ -46,6 +48,7 @@
 .section__title {
   list-style:none;
 }
+
 .task-list__inp,
 .task-list__btn {
   outline:none;
