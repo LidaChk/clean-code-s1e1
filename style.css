@@ -108,7 +108,7 @@
 }
 
 /* New Task */
-.task-list__label[for='new-task'] {
+.task-list__label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
