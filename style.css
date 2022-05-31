@@ -57,7 +57,9 @@
 }
 
 .task-list__inp,
-.task-list__btn {
+.task-list__btn,
+.new-task__btn,
+.new-task__inp--text {
   outline: none;
 }
 
